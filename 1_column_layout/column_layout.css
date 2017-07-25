@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}/*清除格式*/
+.div1{
+	width: 80%;
+	height: 500px;
+	background: #837979;
+	margin: 50px auto;/*一列布局块元素水平居中,宽度小于浏览器窗口宽度时需要设置*/
+	text-align: center;/*块内文本水平居中*/
+}
+.div1 p{
+	padding: 5px 0;
+	font-size: 24px;
+	color: #357140;
+	/*line-height: 500px;/*当只有单行文本时，子元素line-height等于父元素height，设置垂直居中*/
+}
